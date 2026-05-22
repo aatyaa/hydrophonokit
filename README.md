@@ -8,7 +8,7 @@
 
 **HydroPhonoKit** is an advanced, high-performance Python framework designed to automate, compute, and post-process phonon and thermodynamic properties of materials, with a particular focus on hydrogen storage systems and metal hydrides. It bridges the gap between raw Density Functional Theory (DFT) calculations (like VASP) and macroscopic thermodynamic properties.
 
-Developed and maintained exclusively by **Attia A Gadallah**.
+Developed and maintained exclusively by **Attia A Gadallah** (ava7312@psu.edu).
 
 ---
 

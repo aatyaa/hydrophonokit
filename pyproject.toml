@@ -9,10 +9,10 @@ description = "Material-aware scientific framework for automated VASP/Phonopy ph
 readme = "README.md"
 license = {text = "All Rights Reserved"}
 authors = [
-    {name = "Attia A Gadallah"},
+    {name = "Attia A Gadallah", email = "ava7312@psu.edu"},
 ]
 maintainers = [
-    {name = "Attia A Gadallah"},
+    {name = "Attia A Gadallah", email = "ava7312@psu.edu"},
 ]
 keywords = [
     "phonon",
