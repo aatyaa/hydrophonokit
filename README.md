@@ -103,15 +103,26 @@ pip install -e .
 
 ### 1. Command Line Interface (CLI)
 
-The CLI is the quickest way to execute pipelines and generate reports.
+You can run a complete post-processing pipeline directly from the command line:
 
-#### Run a Complete Post-Processing Pipeline
 ```bash
-hydrophonokit run --workspace ./vasp_calculation --output ./results --cache
+# Run postprocessing on a workspace
+hydrophonokit run --workspace /path/to/dft_data --output /path/to/results --cache
 ```
+
+**CLI Arguments:**
 *   `--workspace`: Directory containing VASP calculation files (`POSCAR`, `OUTCAR`, `FORCE_SETS`, etc.).
 *   `--output`: Output directory where CSVs, JSONs, and PDF plots will be saved.
 *   `--cache`: Enables intermediate caching to speed up subsequent runs.
+
+#### Interactive CLI Wizard
+For a guided experience, run the interactive command-line wizard:
+
+```bash
+hydrophonokit
+```
+
+![HydroPhonoKit Interactive Wizard](assets/interactive_wizard.png)
 
 #### Generate Specific Plots
 ```bash
@@ -123,6 +134,7 @@ hydrophonokit plot --json ./results/phonon_results.json --type thermo --output .
 ```bash
 hydrophonokit analyze --type hydrogen --hydride MgH2 --metal Mg --output ./hydrogen_results
 ```
+
 
 ---
 
