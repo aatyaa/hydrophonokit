@@ -2,6 +2,8 @@
 
 **A Material-Aware Scientific Framework for Automated VASP/Phonopy Phonon Calculations**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20337120.svg)](https://doi.org/10.5281/zenodo.20337120)
+
 ---
 
 ## 🌟 Overview
