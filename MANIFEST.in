@@ -1,0 +1,21 @@
+# MANIFEST.in - Include non-Python files in source distributions
+
+# Documentation
+include README.md
+include LICENSE
+include CHANGES.md
+include requirements.txt
+include requirements-dev.txt
+
+# Include test files
+recursive-include tests *.py *.yaml *.json
+
+# Exclude compiled files
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude *.so
+global-exclude .DS_Store
+global-exclude *.egg-info
+
+# Recursive include any data files
+recursive-include hydrophonokit *.txt *.md

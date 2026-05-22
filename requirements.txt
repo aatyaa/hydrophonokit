@@ -1,0 +1,18 @@
+# HydroPhonoKit Core Dependencies
+# Install with: pip install -r requirements.txt
+#
+# For development install, use: pip install -e ".[dev]"
+# See pyproject.toml for full dependency specification
+
+# Core scientific stack
+numpy>=1.21.0,<3.0.0
+phonopy>=2.20.0
+spglib>=2.0.0
+pymatgen>=2023.0.0
+matplotlib>=3.5.0
+
+# Optional: symmetry-adapted force constants (recommended)
+# symfc>=1.0.0
+
+# Optional: automatic high-symmetry k-path generation (recommended)
+# seekpath>=2.0.0

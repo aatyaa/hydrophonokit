@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-link
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Documentation
+docs/_build/
+
+# Distribution
+dist/
+*.tar.gz
+*.whl
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# VASP output (don't commit large calculation files)
+OUTCAR
+CHGCAR
+CHG
+WAVECAR
+vasprun.xml
+EIGENVAL
+PROCAR
+PCDAT
+XDATCAR
+LOCPOT
+ELFCAR
+DOSCAR
+IBZKPT
+REPORT
+*/0*/
+*/disp-*/
+phonopy_disp.yaml
+FORCE_CONSTANTS
+BORN
+
+# Local temporary directories and output files
+.hydrophonokit_cache/
+visualization_test_output/
+band.yaml
+thermodynamic_properties.dat
+hydrophonokit.spec
+Attia-Adel-Technical-CV.docx
