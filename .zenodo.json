@@ -1,0 +1,14 @@
+{
+  "creators": [
+    {
+      "name": "Gadallah, Attia A.",
+      "affiliation": "Pennsylvania State University"
+    }
+  ],
+  "title": "hydrophonokit: A Material-Aware Scientific Framework for Automated VASP/Phonopy Phonon Calculations",
+  "description": "A high-performance Python framework designed to automate, compute, and post-process phonon and thermodynamic properties of materials, with a particular focus on hydrogen storage systems and metal hydrides. It bridges the gap between raw Density Functional Theory (DFT) calculations (like VASP) and macroscopic thermodynamic properties.",
+  "version": "2.7.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "other-open"
+}
